@@ -1,22 +1,22 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int main()
 {
 	setlocale(LC_ALL, "russian");
 
-	cout << "Ïðîãðàììó ñäåëàëà \n";
-	cout << "Ïðîãðàììà äëÿ \n";
+	cout << "ÐŸÑ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñƒ ÑÐ´ÐµÐ»Ð°Ð»Ð° \n";
+	cout << "ÐŸÑ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð° Ð´Ð»Ñ \n";
 
 	double h;
 	double g = 9.8;
 	double t;
-	cout << "Ââåäèòå âðåìÿ ïîë¸òà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ€ÐµÐ¼Ñ Ð¿Ð¾Ð»Ñ‘Ñ‚Ð°: ";
 	cin >> t;
 
 	h = g * t * t / 2;
 
-	cout << "Âûñîòà ïàäåíèÿ: " << h << " ì\n";
+	cout << "Ð’Ñ‹ÑÐ¾Ñ‚Ð° Ð¿Ð°Ð´ÐµÐ½Ð¸Ñ: " << h << " Ð¼\n";
 
 	system("pause");
 
